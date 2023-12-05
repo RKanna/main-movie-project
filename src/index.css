@@ -6,9 +6,28 @@
 .header-main {
   min-width: 100%;
   min-height: 5rem;
-  background-color: yellow;
+  background-color: #d24b47;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 6rem;
+}
+.footer {
+  min-width: 100%;
+  min-height: 5rem;
+  background-color: #241c2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6rem;
+}
+.footer div {
+  color: white;
+}
+.home {
+  min-width: 100%;
+  min-height: calc(100vh - 10rem);
+  background-image: url(../public/assets/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
